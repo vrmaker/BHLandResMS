@@ -1,0 +1,54 @@
+.length-measure{
+    width:16px;
+    height:16px;
+    background-image: url(../img/icon_len.png);
+    background-repeat: no-repeat;
+}
+.area-measure{
+    width:16px;
+    height:16px;
+    background-image: url(../img/icon_area.png);
+    background-repeat: no-repeat;
+}
+.map-identify{
+    width:16px;
+    height:16px;
+    background-image: url(../img/quan.png);
+    background-repeat: no-repeat;
+}
+.map-sign{
+    width:16px;
+    height:16px;
+    background-image: url(../img/icon_len.png);
+    background-repeat: no-repeat;
+}
+.map-query{
+    width:16px;
+    height:16px;
+    background-image: url(../img/icon_query.png);
+    background-repeat: no-repeat;
+}
+.map-statstic{
+    width:16px;
+    height:16px;
+    background-image: url(../img/icon_stat.png);
+    background-repeat: no-repeat;
+}
+.map-ctrl{
+    width:16px;
+    height:16px;
+    background-image: url(../img/icon_toc.png);
+    background-repeat: no-repeat;
+}
+.record-del{
+    width:16px;
+    height:16px;
+    background-image: url(../img/icon_del.png);
+    background-repeat: no-repeat;
+}
+.record-ret{
+    width:16px;
+    height:16px;
+    background-image: url(../img/icon_ret.png);
+    background-repeat: no-repeat;
+}
