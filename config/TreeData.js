@@ -1,0 +1,22 @@
+﻿[
+	{text:"基础地理数据",checked:true,expanded:true,"children":[
+		{text:"基本地形图",checked:true,children:[
+			{text:"影像图",checked:false,leafValue:"tif10000",leaf:true},
+			{text:"电子地图",checked:true,leafValue:"bhmap",leaf:true}
+		]},
+		{text:"业务数据",checked:true,children:[
+			{text:"控制性详细规划图",checked:false,leafValue:"控制性详细规划2013",leaf:true},
+			{text:"地名",checked:true,leafValue:"地名",leaf:true},
+            {text:"规划条件",checked:true,leafValue:"规划条件",leaf:true},
+            {text:"选址意见书",checked:false,leafValue:"选址意见书",leaf:true},
+		]}
+	]},
+	{text:"资源处专题数据",checked:false,children:[
+        {text:"土地征转用地",checked:false,leafValue:"",leaf:true},
+        {text:"土地开发整理",checked:false,leafValue:"",leaf:true},
+        {text:"土地占补平衡",checked:false,leafValue:"",leaf:true},
+        {text:"地热地矿",checked:false,leafValue:"",leaf:true},
+        {text:"高标准基本农田",checked:false,leafValue:"",leaf:true}
+    ]}
+]
+
