@@ -23,52 +23,25 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="44" selection-start="718" selection-end="718" vertical-scroll-proportion="-11.1470585">
+            <state line="15" column="45" selection-start="624" selection-end="624" vertical-scroll-proportion="-3.7941177">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="statForm.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/statForm.js">
+      <file leaf-file-name="annotationMsgWnd.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/annotationMsgWnd.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="20" selection-start="151" selection-end="163" vertical-scroll-proportion="66.0">
+            <state line="83" column="23" selection-start="2293" selection-end="2293" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="toolbar.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/view/toolbar.js">
+      <file leaf-file-name="annotationTools.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/map/annotationTools.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="34" selection-start="2132" selection-end="2132" vertical-scroll-proportion="0.5852187">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="global.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/global.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="20" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="debug.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tools/debug.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="35" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="28" selection-start="4234" selection-end="4234" vertical-scroll-proportion="0.0">
+            <state line="83" column="33" selection-start="3267" selection-end="3267" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -77,16 +50,25 @@
       <file leaf-file-name="queryForm.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/queryForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="25" selection-start="161" selection-end="174" vertical-scroll-proportion="0.0">
+            <state line="55" column="60" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="queryResult.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/queryResult.js">
+      <file leaf-file-name="statForm.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/view/statForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="38" selection-start="2554" selection-end="2554" vertical-scroll-proportion="-26.52">
+            <state line="73" column="33" selection-start="2025" selection-end="2025" vertical-scroll-proportion="0.690407">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comboConfig.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/comboConfig.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="5" selection-start="1959" selection-end="2086" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -95,7 +77,16 @@
       <file leaf-file-name="initmap.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/map/initmap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="43" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
+            <state line="67" column="30" selection-start="2834" selection-end="2834" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="toolbar.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/toolbar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="82" column="45" selection-start="2466" selection-end="2466" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -112,21 +103,21 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/view/dataTree.js" />
-        <option value="$PROJECT_DIR$/src/view/dataForm.js" />
-        <option value="$PROJECT_DIR$/src/utility/baseClass.js" />
-        <option value="$PROJECT_DIR$/lib/esri-init.js" />
-        <option value="$PROJECT_DIR$/readme.txt" />
-        <option value="$PROJECT_DIR$/src/view/statResult.js" />
-        <option value="$PROJECT_DIR$/resources/landres/css/landcss.css" />
+        <option value="$PROJECT_DIR$/src/tools/global.js" />
+        <option value="$PROJECT_DIR$/src/map/measureTools.js" />
+        <option value="$PROJECT_DIR$/src/view/measureLenWnd.js" />
+        <option value="$PROJECT_DIR$/src/view/main.js" />
+        <option value="$PROJECT_DIR$/src/view/propertyGrid.js" />
+        <option value="$PROJECT_DIR$/src/map/identifyTasks.js" />
+        <option value="$PROJECT_DIR$/src/view/toolbar.js" />
         <option value="$PROJECT_DIR$/src/map/initmap.js" />
+        <option value="$PROJECT_DIR$/src/view/annotationWnd.js" />
+        <option value="$PROJECT_DIR$/src/map/annotationTools.js" />
+        <option value="$PROJECT_DIR$/src/view/annotationMsgWnd.js" />
+        <option value="$PROJECT_DIR$/readme.txt" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/view/queryForm.js" />
         <option value="$PROJECT_DIR$/src/view/statForm.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/src/tools/debug.js" />
-        <option value="$PROJECT_DIR$/src/view/global.js" />
-        <option value="$PROJECT_DIR$/src/view/queryResult.js" />
-        <option value="$PROJECT_DIR$/src/view/main.js" />
-        <option value="$PROJECT_DIR$/src/view/toolbar.js" />
       </list>
     </option>
   </component>
@@ -245,6 +236,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BHLandResMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BHLandResMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="landres" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BHLandResMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BHLandResMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -266,14 +297,6 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="landres" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -285,21 +308,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BHLandResMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BHLandResMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -309,13 +318,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/cocos2d/Cocos2d-html5-v2.1.5/Cocos2d-html5-v2.1.5/projects/JSfishjoy" />
+    <property name="last_opened_file_path" value="F:/WebGIS" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Program Files\WebstormProjects\BHLandResMS\resources\landres\images\map" />
-      <recent name="D:\Program Files\WebstormProjects\BHLandResMS\resources\landres\css" />
+      <recent name="D:\Program Files\WebstormProjects\BHLandResMS\config" />
+      <recent name="D:\Program Files\WebstormProjects\BHLandResMS\src\view" />
+      <recent name="D:\Program Files\WebstormProjects\BHLandResMS\resources\landres\img" />
+      <recent name="D:\Program Files\WebstormProjects\BHLandResMS\src\map" />
       <recent name="D:\Program Files\WebstormProjects\BHLandResMS\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -337,13 +348,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="1" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24984147" sideWeight="0.67086834" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24920736" sideWeight="0.67086834" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913166" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -414,136 +425,110 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="1567" />
+      <option name="time" value="3051" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/esri-init.js">
+    <entry file="file://$PROJECT_DIR$/src/map/identifyTasks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="42" selection-start="415" selection-end="415" vertical-scroll-proportion="0.5185185">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1381399174434" expanded="false" signature="191480:191504" placeholder="..." />
-            <marker date="1381399174434" expanded="false" signature="344723:344747" placeholder="..." />
-            <marker date="1381399174434" expanded="false" signature="393134:393146" placeholder="..." />
-            <marker date="1381399174434" expanded="false" signature="394785:394797" placeholder="..." />
-            <marker date="1381399174434" expanded="false" signature="428421:428433" placeholder="..." />
-            <marker date="1381399174434" expanded="false" signature="429145:429157" placeholder="..." />
-            <marker date="1381399174434" expanded="false" signature="429894:429913" placeholder="..." />
-            <marker date="1381399174434" expanded="false" signature="430875:430887" placeholder="..." />
-            <marker date="1381399174434" expanded="false" signature="440476:440488" placeholder="..." />
-            <marker date="1381399174434" expanded="false" signature="441200:441212" placeholder="..." />
-            <marker date="1381399174434" expanded="false" signature="441949:441968" placeholder="..." />
-            <marker date="1381399174434" expanded="false" signature="442930:442942" placeholder="..." />
-            <marker date="1381399174434" expanded="false" signature="444141:444159" placeholder="..." />
-            <marker date="1381399174434" expanded="false" signature="597994:597999" placeholder="..." />
-            <marker date="1381399174434" expanded="false" signature="673280:673323" placeholder="..." />
-            <marker date="1381399174434" expanded="false" signature="673353:673393" placeholder="..." />
-            <marker date="1381399174434" expanded="false" signature="673437:673551" placeholder="..." />
-            <marker date="1381399174434" expanded="false" signature="673588:673628" placeholder="..." />
-            <marker date="1381399174434" expanded="false" signature="673653:673665" placeholder="..." />
-            <marker date="1381399174434" expanded="false" signature="675596:675618" placeholder="..." />
-            <marker date="1381399174434" expanded="false" signature="675669:675691" placeholder="..." />
-            <marker date="1381399174434" expanded="false" signature="711460:711465" placeholder="..." />
-            <marker date="1381399174434" expanded="false" signature="733728:733732" placeholder="..." />
-            <marker date="1381399174434" expanded="false" signature="804753:804757" placeholder="..." />
-            <marker date="1381399174434" expanded="false" signature="870644:870656" placeholder="..." />
-            <marker date="1381399174434" expanded="false" signature="872295:872307" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="29" selection-start="42" selection-end="42" vertical-scroll-proportion="0.072674416" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/dataTree.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="23" selection-start="403" selection-end="403" vertical-scroll-proportion="0.3270349" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/landres/img/icon_i.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/statResult.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="103" selection-end="103" vertical-scroll-proportion="0.25436047" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/landres/img/icon_del.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/landres/css/landcss.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="33" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.6729651">
+        <state line="251" column="24" selection-start="8667" selection-end="8667" vertical-scroll-proportion="-7.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tools/debug.js">
+    <entry file="file://$PROJECT_DIR$/src/tools/global.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="35" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
+        <state line="8" column="17" selection-start="190" selection-end="190" vertical-scroll-proportion="0.29069766" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/queryResult.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="22" selection-start="1977" selection-end="1977" vertical-scroll-proportion="-13.52">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/measureLenWnd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="17" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="29" selection-start="4560" selection-end="4560" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/map/initmap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="43" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
+        <state line="67" column="30" selection-start="2834" selection-end="2834" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/global.js">
+    <entry file="file://$PROJECT_DIR$/src/map/annotationTools.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="20" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
+        <state line="83" column="33" selection-start="3267" selection-end="3267" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/queryForm.js">
+    <entry file="file://$PROJECT_DIR$/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="25" selection-start="161" selection-end="174" vertical-scroll-proportion="0.0">
+        <state line="7" column="54" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/annotationWnd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="31" selection-start="1071" selection-end="1071" vertical-scroll-proportion="0.6229261" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/toolbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="45" selection-start="2466" selection-end="2466" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/queryResult.js">
+    <entry file="file://$PROJECT_DIR$/src/view/annotationMsgWnd.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="38" selection-start="2554" selection-end="2554" vertical-scroll-proportion="-26.52">
+        <state line="83" column="23" selection-start="2293" selection-end="2293" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/main.js">
+    <entry file="file://$PROJECT_DIR$/config/comboConfig.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="28" selection-start="4234" selection-end="4234" vertical-scroll-proportion="0.0">
+        <state line="47" column="5" selection-start="1959" selection-end="2086" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="44" selection-start="718" selection-end="718" vertical-scroll-proportion="-11.1470585">
+        <state line="15" column="45" selection-start="624" selection-end="624" vertical-scroll-proportion="-3.7941177">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/queryForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="60" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/dataTree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="21" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.6540698">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/statForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="151" selection-end="163" vertical-scroll-proportion="66.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/toolbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="34" selection-start="2132" selection-end="2132" vertical-scroll-proportion="0.5852187">
+        <state line="73" column="33" selection-start="2025" selection-end="2025" vertical-scroll-proportion="0.690407">
           <folding />
         </state>
       </provider>

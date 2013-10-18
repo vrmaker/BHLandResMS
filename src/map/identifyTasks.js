@@ -17,7 +17,6 @@ function IdentifyTasks() {
     var identifyTask;
     var anchorPoint; //鼠标点击坐标
     var currLayerName; //当前点击的层名
-    var ttt = 0;//辨别是否是第一下点击
     this.identifyHandler = function(map, options) {
         identifyMap = map;
         taskOptions = options;
@@ -119,21 +118,11 @@ function IdentifyTasks() {
             }
 
             identifyMap.graphics.add(graphic);
-            //属性列表显示到地图层上
-//            var infoTemplate = new esri.InfoTemplate();
-//            infoTemplate.setTitle("");
-//            infoTemplate.setContent("${*}");
-//            graphic.setInfoTemplate(infoTemplate);
-//            identifyMap.graphics.add(graphic);
-//            var iw = identifyMap.infoWindow;
-//            setTimeout(function() { iw.hide(); }, 1000);
 
-            console.log("attr",graphic.attributes);
             //显示属性图表
             //onMapClick(graphic.attributes);
-
-            PropertyGrid.setProperty("LZS", 7);
-
+            switchPage("east-panel","property-grid");
+            PropertyGrid.setSource(graphic.attributes);
         }
         else {
             this.identifyTaskExecute(identifyMap, identifyParameters.identifyParameters);
@@ -160,7 +149,6 @@ function IdentifyTasks() {
     }
     this.activeIdentifyEvent = function ()
     {
-        ttt = 0;
         //只激活一次
         connectEvent = dojo.connect(identifyMap, "onClick", doIdentify);
     }
@@ -218,13 +206,13 @@ function IdentifyTasks() {
 		return false;
 	}
     function onMapClick(attributs) {
-        if(ttt == 0){
-            showRightContent("identityDiv",currLayerName);
-        }
-        else{
-            $("#rightContentName").text(currLayerName);
-        }
-        ttt=1;
+//        if(ttt == 0){
+//            showRightContent("identityDiv",currLayerName);
+//        }
+//        else{
+//            $("#rightContentName").text(currLayerName);
+//        }
+//        ttt=1;
 
 
         if (attributs)

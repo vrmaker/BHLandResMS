@@ -6,18 +6,16 @@
  * 属性表.
  */
 
-var PropertyGrid = {
-    xtype:'propertygrid',
-    width:300,
-    source:{
-        "LZS":9
-    }
-//    source:{
-//        "(name)": "My Object",
-//        "Created": Ext.Date.parse('10/15/2006', 'm/d/Y'),
-//        "Available": false,
-//        "Version": 0.01,
-//        "Description": "A test object"
-//    }
+//必须使用create创建
+var PropertyGrid = Ext.create('Ext.grid.property.Grid', {
+    title: 'Properties Grid',
+    id:'property-grid',
+    width: 300,
+    disable:true
+});
 
-}
+//取消可编辑功能
+PropertyGrid.on("beforeedit", function(e){
+    e.cancel = true;
+    return false;
+});

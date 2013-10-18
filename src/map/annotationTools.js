@@ -196,8 +196,8 @@ function AnnotationTools(map,pointLayer,lineLayer,PolygonLayer)
             var id = newGraphic.attributes.C0;
         }
 
-        var value0 = getInputValue("value0");
-        var value1 = getInputValue("value1");
+        var value0 = Ext.getCmp("name-field").getValue();
+        var value1 = Ext.getCmp("remark-field").getValue();
 
         var addFeatureAttr = {"C0":id,"C1":value0,"C2":value1,"OBJECTID":newObjectID};
 
@@ -284,8 +284,8 @@ function AnnotationTools(map,pointLayer,lineLayer,PolygonLayer)
         else
         {
             //update
-            updateFeature.attributes["C1"] = getInputValue("value0");
-            updateFeature.attributes["C2"] = getInputValue("value1");
+            updateFeature.attributes["C1"] = Ext.getCmp("name-field").getValue();
+            updateFeature.attributes["C2"] = Ext.getCmp("remark-field").getValue();
 
             //更新textSymbol
             if(updateFeature.geometry.type == "point")
@@ -325,7 +325,7 @@ function AnnotationTools(map,pointLayer,lineLayer,PolygonLayer)
             updateFeature.getLayer().applyEdits(null, [updateFeature], null);
             updateFeature = null;
         }
-        setDivHide("annotationAttrDiv");
+        //setDivHide("annotationAttrDiv");
 
     }
     this.deleteAttribute = function()
@@ -341,8 +341,8 @@ function AnnotationTools(map,pointLayer,lineLayer,PolygonLayer)
             dojo.disconnect(zoomEvent);
         }
 
-        var value0 = getInputValue("value0");
-        var value1 = getInputValue("value1");
+        var value0 = Ext.getCmp("name-field").getValue();
+        var value1 = Ext.getCmp("remark-field").getValue();
 
         var addFeatureAttr = {"C1":value0,"C2":value1,"OBJECTID":newObjectID};
 
@@ -407,7 +407,7 @@ function AnnotationTools(map,pointLayer,lineLayer,PolygonLayer)
             }
 
         }
-        setDivHide("annotationAttrDiv");
+        //setDivHide("annotationAttrDiv");
 
     }
 
@@ -611,38 +611,44 @@ function AnnotationTools(map,pointLayer,lineLayer,PolygonLayer)
 
     showAttribute = function(geometry,attributes)
     {
-        console.log("-----showAttribute------");
-        setInputValue("value0",attributes["C1"]);
-        setInputValue("value1",attributes["C2"]);
-
-        panEvent = dojo.connect(mymap,"onPan",function(extent,delta){
-            var currScreenPt = [];
-            screenPt = mymap.toScreen(mapPoint);
-            currScreenPt.x= screenPt.x + delta.x;
-            currScreenPt.y = screenPt.y + delta.y;
-            if(isCancel == false)
-            {
-                setChangedDivPosition(currScreenPt);
-            }
-
-        });
-
-        zoomEvent = dojo.connect(mymap,"onZoomEnd",function(extent, zoomFactor, anchor){
-            var currScreenPt = [];
-            screenPt = mymap.toScreen(mapPoint);
-            currScreenPt.x= screenPt.x ;
-            currScreenPt.y = screenPt.y ;
-            if(!isCancel)
-            {
-                setChangedDivPosition(currScreenPt);
-            }
-        })
-
-        screenPt = mymap.toScreen(mapPoint);
-        if(isClick)
-        {
-            setClickDivPosition(screenPt);
-        }
+        AnnotationMsgWnd.create();
+        AnnotationMsgWnd.show();
+        var field1 = Ext.getCmp("name-field");
+        field1.setValue(attributes["C1"]);
+        var field2 = Ext.getCmp("remark-field");
+        field2.setValue(attributes["C2"]);
+//        console.log("-----showAttribute------");
+//        setInputValue("value0",attributes["C1"]);
+//        setInputValue("value1",attributes["C2"]);
+//
+//        panEvent = dojo.connect(mymap,"onPan",function(extent,delta){
+//            var currScreenPt = [];
+//            screenPt = mymap.toScreen(mapPoint);
+//            currScreenPt.x= screenPt.x + delta.x;
+//            currScreenPt.y = screenPt.y + delta.y;
+//            if(isCancel == false)
+//            {
+//                setChangedDivPosition(currScreenPt);
+//            }
+//
+//        });
+//
+//        zoomEvent = dojo.connect(mymap,"onZoomEnd",function(extent, zoomFactor, anchor){
+//            var currScreenPt = [];
+//            screenPt = mymap.toScreen(mapPoint);
+//            currScreenPt.x= screenPt.x ;
+//            currScreenPt.y = screenPt.y ;
+//            if(!isCancel)
+//            {
+//                setChangedDivPosition(currScreenPt);
+//            }
+//        })
+//
+//        screenPt = mymap.toScreen(mapPoint);
+//        if(isClick)
+//        {
+//            setClickDivPosition(screenPt);
+//        }
 
     }
     var screenPt = [0,0];

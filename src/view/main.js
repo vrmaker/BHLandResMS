@@ -5,7 +5,15 @@
  * Time: 下午1:51
  * 页面的整体布局.
  */
-
+Ext.Loader.setConfig({
+    enable:true,
+    paths:{
+        'Ext.ux':'lib/ux'
+    }
+});
+Ext.require([
+    'Ext.ux.PreviewPlugin'
+]);
 
 
 Ext.onReady(function(){
@@ -101,6 +109,7 @@ Ext.onReady(function(){
                 width: 250,
                 minSize: 100,
                 maxSize: 200,
+                draggable:true,
                 collapsible: true,
                 collapsed: false,
                 //floating:'toFront',
@@ -109,7 +118,9 @@ Ext.onReady(function(){
             {
                 xtype:'panel',
                 region:'center',
-                deferredRender: false,
+                id:'center-panel',
+                //deferredRender: false,
+               // baseCls: 'my-panel-no-border:true',
                 items:[
                     {
                         contentEl:'mapDiv'
@@ -128,10 +139,11 @@ Ext.onReady(function(){
                 minWidth:270,
                 split:true,
                 items:[
-                    //表单对象
-                    QueryDataForm
-                    //StatDataForm,
-                    //QueryResGrid
+                    //card页
+                    QueryDataForm,
+                    StatDataForm,
+                    QueryResGrid,
+                    PropertyGrid
                 ]
             }
         ]

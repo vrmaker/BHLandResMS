@@ -7,7 +7,7 @@
  */
 
 var StatDataForm = {
-    xtype:'form',
+    xtype:'panel',
     id:'statFormPage',
     border:false,
 
@@ -21,7 +21,7 @@ var StatDataForm = {
             fieldStyle:{
                 background: '#e5eeff'
             },
-            labelPad:10,
+
             value:'选择统计专题数据：'
         },
         {
@@ -40,14 +40,20 @@ var StatDataForm = {
             valueField:     'value',
             store:          Ext.create('Ext.data.Store', {
                 fields : ['name', 'value'],
-                data   : [
-                    {name : '土地征转数据',   value: 'zzsj'},
-                    {name : '土地开发整理',  value: 'kfzl'},
-                    {name : '占补平衡', value: 'zbph'},
-                    {name : '地热地矿',  value: 'drdk'},
-                    {name : '高标准基本农田', value: 'jbnt'}
-                ]
-            })
+                data   : ComboData
+            }),
+            listeners:{
+                change:function(newValue){
+                    for(var v in CheckData){
+                        if(newValue.getValue() == v){
+                            Ext.getCmp('multiField-cbgroup-stat').removeAll();
+                            gValue = CheckData[v];
+                            Ext.getCmp('multiField-cbgroup-stat').add(gValue);
+                            console.log(Ext.getCmp('multiField-cbgroup'));
+                        }
+                    }
+                }
+            }
         },
         //2.选择查询区域
         {
@@ -125,29 +131,21 @@ var StatDataForm = {
                 {
                     xtype:'button',
                     margin:'10 10 10 40',
-                    text:'统计'
+                    text:'统计',
+                    handler:function(){
+                        switchPage("east-panel","queryGridPage","statFormPage");
+                    }
                 }
             ]
         },
         //5.输出字段checkbox
         {
             xtype:'checkboxgroup',
+            id:'multiField-cbgroup-stat',
             layout:'vbox',
+            autoScroll:true,
             margin:'10',
-            items: [
-                { boxLabel: '批次名称', name: 'rb', inputValue: '1' },
-                { boxLabel: '批准日期', name: 'rb', inputValue: '2', checked: true },
-                { boxLabel: '批准文号', name: 'rb', inputValue: '3' },
-                { boxLabel: '总面积', name: 'rb', inputValue: '4' },
-                { boxLabel: '新增建设用地面积', name: 'rb', inputValue: '5' },
-                { boxLabel: '农用地转用面积', name: 'rb', inputValue: '6' },
-                { boxLabel: '耕地转用面积', name: 'rb', inputValue: '7' },
-                { boxLabel: '未利用地转用面积', name: 'rb', inputValue: '8', checked: true },
-                { boxLabel: '补充耕地验收文号', name: 'rb', inputValue: '9' },
-                { boxLabel: '应缴新增费面积', name: 'rb', inputValue: '10' },
-                { boxLabel: '征收土地面积', name: 'rb', inputValue: '11' },
-                { boxLabel: '征收农用地面积', name: 'rb', inputValue: '12' }
-            ]
+            items:  CheckData.zzsj
         }
     ]
 }
