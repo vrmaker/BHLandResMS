@@ -108,23 +108,51 @@ var QueryResGrid = Ext.create('Ext.grid.Panel',{
         },
         edit:function(editor,e){         //update提交
             console.log("editor",editor);
+            console.log("record",e.record);
             console.log("e", e.record.modified);
 
             var updateStr = "";
 
-            for(var k in e.record.modified){
+            for(var k in e.record.modified){   //只发送被更改的数据。注：该数据为更改前老数据
                 if(k == "OBJECTID")continue;  //去除第一个值OBJECTID;"
                 updateStr += k + "%3D" + e.newValues[k] + ",";
             }
             updateStr = updateStr.slice(0,updateStr.length-1);
 
-            Ext.Ajax.request({
-                url:'../BHLandResSite/Update.ashx?'+ "uField="+updateStr +'&uLayer='+currLayer +'&uObject='+e.record.modified.OBJECTID,
-                success: function(response){
-                    var text = response.responseText;
-                    // process server response here
+            Ext.MessageBox.show({
+                title: '',
+                msg: '是否确定要修改数据？',
+                buttons: Ext.MessageBox.YESNO,
+                buttonText:{
+                    yes: "是",
+                    no: "否"
+                },
+                fn: function(btn){
+                    console.log("param",btn);
+                    if(btn == "yes"){
+                        Ext.Ajax.request({
+                            url:'../BHLandResSite/Update.ashx?'+ "uField="+updateStr +'&uLayer='+currLayer +'&uObject='+e.record.modified.OBJECTID,
+                            success: function(response){
+                                var text = response.responseText;
+                                //Ext.tipMsg.msg('记录已经修改完毕');
+                            }
+                        })
+                    }
+                    else if(btn == "no"){
+                        //editor.cancelEdit();
+
+                        for(var j in e.record.modified){
+                                e.record.data[j] = e.record.modified[j];
+                        }
+
+                        QueryResGrid.store.reload();
+                        //e.record.set("data", e.record.modified);
+                    }
+
                 }
             })
+
+
         }
     }
 });

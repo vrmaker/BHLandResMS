@@ -23,7 +23,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="44" selection-start="585" selection-end="585" vertical-scroll-proportion="-8.823529">
+            <state line="12" column="41" selection-start="432" selection-end="432" vertical-scroll-proportion="-7.352941">
               <folding />
             </state>
           </provider>
@@ -38,19 +38,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comboConfig.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="comboConfig.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/comboConfig.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="25" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.3997093">
+            <state line="15" column="29" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="queryResult.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="queryResult.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/view/queryResult.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="45" selection-start="2964" selection-end="2964" vertical-scroll-proportion="0.0">
+            <state line="143" column="56" selection-start="4541" selection-end="4541" vertical-scroll-proportion="0.29777777">
               <folding />
             </state>
           </provider>
@@ -59,14 +59,14 @@
       <file leaf-file-name="FindTasks.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/map/FindTasks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="39" selection-start="1009" selection-end="1009" vertical-scroll-proportion="-12.04">
+            <state line="31" column="5" selection-start="781" selection-end="781" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1383277877149" expanded="false" signature="5135:5164" placeholder="..." />
-                <marker date="1383277877149" expanded="false" signature="5316:5345" placeholder="..." />
-                <marker date="1383277877149" expanded="true" signature="5498:5517" placeholder="..." />
-                <marker date="1383277877149" expanded="true" signature="5557:5576" placeholder="..." />
-                <marker date="1383277877149" expanded="false" signature="7195:7214" placeholder="..." />
-                <marker date="1383277877149" expanded="false" signature="7251:7270" placeholder="..." />
+                <marker date="1383291714805" expanded="false" signature="5134:5163" placeholder="..." />
+                <marker date="1383291714805" expanded="false" signature="5315:5344" placeholder="..." />
+                <marker date="1383291714805" expanded="false" signature="5497:5516" placeholder="..." />
+                <marker date="1383291714805" expanded="false" signature="5556:5575" placeholder="..." />
+                <marker date="1383291714805" expanded="false" signature="7194:7213" placeholder="..." />
+                <marker date="1383291714805" expanded="false" signature="7250:7269" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -91,22 +91,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/map/annotationTools.js" />
-        <option value="$PROJECT_DIR$/src/map/measureTools.js" />
         <option value="$PROJECT_DIR$/src/data/testpaging.js" />
         <option value="$PROJECT_DIR$/src/data/pagingstore.js" />
         <option value="$PROJECT_DIR$/src/view/toolbar.js" />
         <option value="$PROJECT_DIR$/config/TreeData.js" />
         <option value="$PROJECT_DIR$/src/view/main.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/readme.txt" />
         <option value="$PROJECT_DIR$/src/map/initmap.js" />
         <option value="$PROJECT_DIR$/src/map/mapHelper.js" />
-        <option value="$PROJECT_DIR$/src/map/FindTasks.js" />
         <option value="$PROJECT_DIR$/config/config.js" />
-        <option value="$PROJECT_DIR$/src/view/queryResult.js" />
         <option value="$PROJECT_DIR$/src/view/queryForm.js" />
         <option value="$PROJECT_DIR$/config/comboConfig.js" />
+        <option value="$PROJECT_DIR$/src/map/FindTasks.js" />
+        <option value="$PROJECT_DIR$/lib/examples.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/lib/tipMsg.js" />
+        <option value="$PROJECT_DIR$/src/view/queryResult.js" />
       </list>
     </option>
   </component>
@@ -142,6 +142,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -294,7 +295,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,11 +304,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Program Files\WebstormProjects\BHLandResMS\lib" />
       <recent name="D:\Program Files\WebstormProjects\BHLandResMS\src\map" />
       <recent name="D:\Program Files\WebstormProjects\BHLandResMS\config" />
       <recent name="D:\Program Files\WebstormProjects\BHLandResMS\src\view" />
       <recent name="D:\Program Files\WebstormProjects\BHLandResMS\resources\landres\img" />
-      <recent name="D:\Program Files\WebstormProjects\BHLandResMS\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Program Files\WebstormProjects\BHLandResMS\resources\landres\img" />
@@ -330,12 +330,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24920736" sideWeight="0.67086834" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24920736" sideWeight="0.67086834" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913166" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -406,15 +406,10 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="4353" />
+      <option name="time" value="4428" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/view/measureLenWnd.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="19" selection-start="1168" selection-end="1168" vertical-scroll-proportion="1.0174419" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/TreeData.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="46" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0" />
@@ -428,13 +423,6 @@
     <entry file="file://$PROJECT_DIR$/src/map/FindParametersHelper.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="36" selection-start="553" selection-end="553" vertical-scroll-proportion="0.7630814">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="44" selection-start="585" selection-end="585" vertical-scroll-proportion="-8.823529">
           <folding />
         </state>
       </provider>
@@ -455,9 +443,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/map/measureTools.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="37" selection-start="3064" selection-end="3064" vertical-scroll-proportion="1.8888888">
-          <folding />
-        </state>
+        <state line="82" column="37" selection-start="3064" selection-end="3064" vertical-scroll-proportion="1.8888888" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/map/initmap.js">
@@ -469,42 +455,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="43" selection-start="2615" selection-end="2615" vertical-scroll-proportion="0.690407">
-          <folding />
-        </state>
+        <state line="107" column="43" selection-start="2615" selection-end="2615" vertical-scroll-proportion="0.690407" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/toolbar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="9" selection-start="285" selection-end="285" vertical-scroll-proportion="-1.5436046">
-          <folding />
-        </state>
+        <state line="17" column="9" selection-start="285" selection-end="285" vertical-scroll-proportion="-1.5436046" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/map/mapHelper.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="126" column="57" selection-start="3733" selection-end="3733" vertical-scroll-proportion="0.5185185">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/map/FindTasks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="39" selection-start="1009" selection-end="1009" vertical-scroll-proportion="-12.04">
-          <folding>
-            <marker date="1383277877149" expanded="false" signature="5135:5164" placeholder="..." />
-            <marker date="1383277877149" expanded="false" signature="5316:5345" placeholder="..." />
-            <marker date="1383277877149" expanded="true" signature="5498:5517" placeholder="..." />
-            <marker date="1383277877149" expanded="true" signature="5557:5576" placeholder="..." />
-            <marker date="1383277877149" expanded="false" signature="7195:7214" placeholder="..." />
-            <marker date="1383277877149" expanded="false" signature="7251:7270" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/queryResult.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="45" selection-start="2964" selection-end="2964" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -518,7 +479,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/comboConfig.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="25" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.3997093">
+        <state line="15" column="29" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/map/FindTasks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="5" selection-start="781" selection-end="781" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1383291714805" expanded="false" signature="5134:5163" placeholder="..." />
+            <marker date="1383291714805" expanded="false" signature="5315:5344" placeholder="..." />
+            <marker date="1383291714805" expanded="false" signature="5497:5516" placeholder="..." />
+            <marker date="1383291714805" expanded="false" signature="5556:5575" placeholder="..." />
+            <marker date="1383291714805" expanded="false" signature="7194:7213" placeholder="..." />
+            <marker date="1383291714805" expanded="false" signature="7250:7269" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tipMsg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="10" selection-start="2574" selection-end="2574" vertical-scroll-proportion="0.32">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="41" selection-start="432" selection-end="432" vertical-scroll-proportion="-7.352941">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/queryResult.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="143" column="56" selection-start="4541" selection-end="4541" vertical-scroll-proportion="0.29777777">
           <folding />
         </state>
       </provider>

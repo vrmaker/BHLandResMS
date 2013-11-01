@@ -27,7 +27,6 @@ function FindTasks() {
         findMap = map;
         layerID.push(gMapHelper.getDymaticLayerByName(layerName).id);
 
-
     }
     this.clearAll = function()
     {

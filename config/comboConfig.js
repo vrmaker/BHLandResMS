@@ -7,6 +7,15 @@ var ComboData = [
     {name : '高标准基本农田', value: 'jbnt'}
 ]
 
+var KeyData = [
+    {field: 'BSM',  alias: '标识码'},
+    {field: 'YSDM', alias: '要素代码'},
+    {field: 'TBYBH', alias: '总面积'},
+    {field: 'TBBH',alias: '图斑编号'},
+    {field: 'TBMJ', alias: '图斑面积'},
+    {field: 'XZFQ',alias: '行政分区'}
+]
+
 var CheckData = {
     zzsj:[
         {name: 'OBJECTID', boxLabel: '序号',        index:'OBJECTID', type:'double' ,xType:'textfield', checked: true},
