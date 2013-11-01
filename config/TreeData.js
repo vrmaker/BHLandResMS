@@ -12,7 +12,9 @@
 		]}
 	]},
 	{text:"资源处专题数据",checked:false,children:[
-        {text:"土地征转用地",checked:false,leafValue:"",leaf:true},
+        {text:"土地征转用地",checked:false,children:[
+            {text:"2013年征转数据",checked:false,leafValue:"BHGIS.zy_tdzz",leaf:true}
+        ]},
         {text:"土地开发整理",checked:false,leafValue:"",leaf:true},
         {text:"土地占补平衡",checked:false,leafValue:"",leaf:true},
         {text:"地热地矿",checked:false,leafValue:"",leaf:true},

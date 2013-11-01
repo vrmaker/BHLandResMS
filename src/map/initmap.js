@@ -9,9 +9,11 @@ var gMapHelper = null;
 var measureTools = null;
 var identifyTaskHelper = null;
 var annotationTools = null;
+var findTaskHandler = null;
+var mymap = null;
 
 var initMap = function(){
-    var mymap = new esri.Map("mapDiv",{zoom:1});
+    mymap = new esri.Map("mapDiv",{zoom:1});
 
 //     var myTiledMapServiceLayer = new esri.layers.ArcGISTiledMapServiceLayer("http://192.168.16.58/ArcGIS/rest/services/bhmap/MapServer");
 //    //var myTiledMapServiceLayer = new esri.layers.ArcGISDynamicMapServiceLayer("http://localhost/ArcGIS/rest/services/world/MapServer");
@@ -67,6 +69,9 @@ var initMap = function(){
         mode: esri.layers.FeatureLayer.MODE_ONDEMAND,
         outFields: ["C1","C2"]
     });
+
+    //地图定位
+    findTaskHandler = new FindTasks();
 
     //地图标注
     annotationTools = new AnnotationTools(mymap,annotationPointLayer,annotationLineLayer,annotationPolygonLayer);

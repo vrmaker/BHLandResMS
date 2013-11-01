@@ -145,10 +145,10 @@ var switchPage = function(parentId,toId,fromId,filePath)  //fromId可为空
         gPrevComponentId = fromId;
     }
     else{
-        contentPage.getLoader().load({
-            url:filePath,
-            renderer:"component"
-        });
+//        contentPage.getLoader().load({
+//            url:filePath,
+//            renderer:"component"
+//        });
         //assert(contentPage,"no exist page");
     }
 }

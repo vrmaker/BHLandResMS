@@ -21,6 +21,11 @@ Ext.onReady(function(){
 
     Ext.state.Manager.setProvider(Ext.create('Ext.state.CookieProvider'));
 
+    //屏蔽浏览器默认右键弹出菜单
+    Ext.getDoc().on("contextmenu", function(e){
+        e.stopEvent();
+    });
+
     var viewport = Ext.create('Ext.Viewport',{
 
         id : "viewport-border",

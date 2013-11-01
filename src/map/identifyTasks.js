@@ -149,6 +149,7 @@ function IdentifyTasks() {
     }
     this.activeIdentifyEvent = function ()
     {
+        identifyMap.reposition();
         //只激活一次
         connectEvent = dojo.connect(identifyMap, "onClick", doIdentify);
     }

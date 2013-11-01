@@ -141,6 +141,7 @@ function AnnotationTools(map,pointLayer,lineLayer,PolygonLayer)
     }
     this.activeAnnotationPoint = function()
     {
+        mymap.reposition();
         //先取消其它绘画操作
         drawToolbar.deactivate();
         drawing = true;
@@ -149,6 +150,7 @@ function AnnotationTools(map,pointLayer,lineLayer,PolygonLayer)
     }
     this.activeAnnotationPolyLine = function()
     {
+        mymap.reposition();
         //先取消其它绘画操作
         drawToolbar.deactivate();
         drawing = true;
@@ -157,6 +159,7 @@ function AnnotationTools(map,pointLayer,lineLayer,PolygonLayer)
     }
     this.activeAnnotationPolygon = function()
     {
+        mymap.reposition();
         //先取消其它绘画操作
         drawToolbar.deactivate();
         drawing = true;
@@ -577,7 +580,7 @@ function AnnotationTools(map,pointLayer,lineLayer,PolygonLayer)
     {
         queryResultEvent = dojo.connect(mymap, "onClick", function(evt){
 
-            console.log("---------onClick------------",evt.mapPoint);
+            mymap.reposition();
 
             var screenPtX = new esri.geometry.Point(0,0);
             var screenPtY = new esri.geometry.Point(1,0);

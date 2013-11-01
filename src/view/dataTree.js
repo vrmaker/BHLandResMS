@@ -15,7 +15,8 @@ var createTree = function(){
         },
         root:{
             text:'数据资源',
-            expanded:true
+            expanded:true,
+            checked:true
         }
     });
 
@@ -39,25 +40,21 @@ var createTree = function(){
                     if(node.childNodes.length>0)
                         this.setChildNode(node.childNodes,checked)
 
-                    //TODO:写成递归
                     if(node.parentNode !=null  ){
-                        console.log("node",node);
-                        var checkedCount = 0;
-                        if( !checked){   //是叶结点且取消勾选
-                            for(var i=node.parentNode.childNodes.length-1;i>=0;i--){
-                                var ckeckedNode = node.parentNode.childNodes[i];
-                                if(ckeckedNode.data.checked == true){
-                                    checkedCount++;
-                                }
-                            }
-                        }
-                        if(checkedCount ==0 ) this.setParentNode(node.parentNode,checked);
+                        this.setParentNode(node.parentNode,checked);
 
                     }
                 }
             },
             setParentNode:function(node,checked){
-                node.set("checked",checked);
+
+                var checkedCount = 0;
+                for(var i=node.childNodes.length-1;i>=0;i--){
+                    if(node.childNodes[i].data.checked == true){checkedCount++;break;}
+                }
+                if(checkedCount == 0 && checked ==false)node.set("checked",checked);  //逐级删除父结点勾选
+                if(checkedCount == 1 && checked ==true)node.set("checked",checked);   //逐级添加父结点勾选
+
                 if(node.parentNode !=null){
                     this.setParentNode(node.parentNode,checked);
                 }
@@ -69,7 +66,8 @@ var createTree = function(){
                     }
                 }else{
                     if(node.data.checked!=null){
-                        if(checked == node.data.checked){
+
+                        if(node.data.checked == checked){
                             //如果叶结点的已经checked=false,则父结点忽略修改该结点
                         }
                         else{
@@ -77,11 +75,12 @@ var createTree = function(){
                             //console.log("node",node);
                             gMapHelper.setTitleMapVisible(node.raw.leafValue);  //设置切片或动态的可见性
                             gMapHelper.setDymaticMapVisible(node.raw.leafValue);
+
                         }
 
                     }
                     if(node.childNodes.length>0)
-                        this.changeChecked(node.childNodes,checked);
+                        this.setChildNode(node.childNodes,checked);
                 }
             }
 

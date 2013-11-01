@@ -34,8 +34,9 @@ var QueryDataForm = {
         anchor:    '90%',
         margin:     '15,10,15,10',
         xtype:          'combo',
+        id:             'layerField-combo',
         queryMode:      'local',
-        value:          'zzsj',
+        value:          'BHGIS.zy_tdzz',
         triggerAction:  'all',
         forceSelection: true,
         editable:       false,
@@ -55,6 +56,7 @@ var QueryDataForm = {
                         gValue = CheckData[v];
                         Ext.getCmp('multiField-cbgroup-query').add(gValue);
                         console.log(Ext.getCmp('multiField-cbgroup'));
+
                     }
                 }
             }
@@ -73,31 +75,28 @@ var QueryDataForm = {
         value:'选择查询区域：'
     },
     {
-        defaultType:'checkbox',
+        xtype:'checkboxgroup',
+        id:'regionField-cbgroup-query',
         layout:'hbox',
-        border:false,
+        //border:false,
         margin:' 20 20 20 20',
         items:[
             {
                 boxLabel: '塘沽',
                 name: 'name-tanggu',
-                inputValue: 'v-tanggu',
+                inputValue: '塘沽区',
                 margin:'0 10 0 0'
             }, {
                 boxLabel: '汉沽',
                 name: 'name-hangu',
-                inputValue: 'v-hangu',
+                inputValue: '汉沽区',
                 margin:'0 10'
             }, {
                 checked: true,
                 boxLabel: '大港',
                 name: 'name-dagang',
-                inputValue: 'v-dagang',
+                inputValue: '大港区',
                 margin:'0 20 0 0'
-            },
-            {
-                xtype:'button',
-                text:'查询'
             }
         ]
     },
@@ -140,6 +139,22 @@ var QueryDataForm = {
                 text:'查询',
                 handler:function(){
                     switchPage("east-panel","queryGridPage","queryFormPage");
+
+                    var layerCombo = Ext.getCmp("layerField-combo");
+                    var layerValue = layerCombo.getValue();
+
+                    var regionCheckboxGp = Ext.getCmp("regionField-cbgroup-query");
+                    var arrRegionChecked = [];
+                    arrRegionChecked = regionCheckboxGp.getChecked();
+
+                    var multiCheckboxGp = Ext.getCmp("multiField-cbgroup-query");
+                    var arrmultiChecked = [];
+                    arrmultiChecked = multiCheckboxGp.getChecked();
+
+
+                    setTimeout(submitData(layerValue,arrRegionChecked,arrmultiChecked),10);
+
+
                 }
             }
         ]

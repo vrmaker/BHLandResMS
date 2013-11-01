@@ -93,14 +93,14 @@ var dymaticMap = {
         "title":"控制性详细规划2013",//在dymatic中层的名称
         "visible":0,//地图是否可视
         "icon":""//图标的路径
+    },
+    layer8:{
+        "name": "土地征收",//在页面中显示的名称
+        "title":"BHGIS.zy_tdzz",//在dymatic中层的名称
+        "visible":0,//地图是否可视
+        "icon":""//图标的路径
     }
-//    layer8:{
-//        "name": "路网",//在页面中显示的名称
-//        "title":"binhairoad2012",//服务名称
-//        "ip":"192.168.16.58",
-//        "visible":1,//地图是否可视
-//        "icon":""//图标的路径
-//    }
+
 };
 
 //切片图层的lods配置

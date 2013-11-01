@@ -54,6 +54,9 @@ MeasureTools = function(mymap )
     MeasureTools.prototype.addPolyline = function(evt)
     {
 
+        var pt = evt.mapPoint;
+        console.log( pt );
+
         if(inPolygon.rings.length > 0)
         {
             inPoint.points = [];
@@ -242,20 +245,21 @@ MeasureTools = function(mymap )
             clickAreaEvent = dojo.connect(mymap,"onClick",this.addPolygon);
         }
 
-
-
         this.deactiveEvent();
     }
     MeasureTools.prototype.activeMeasureLength = function()
     {
-        this.deactiveEvent();
+        mymap.reposition();
 
-        clickLengthEvent = dojo.connect(mymap,"onClick",this.addPolyline);
+        this.deactiveEvent();
+        clickLengthEvent = dojo.connect(mymap, "onClick", this.addPolyline);
 
     }
 
     MeasureTools.prototype.activeMeasureArea = function()
     {
+        mymap.reposition();
+
         this.deactiveEvent();
         clickAreaEvent = dojo.connect(mymap,"onClick",this.addPolygon);
 

@@ -124,7 +124,7 @@ function MapHelper(map) {
 		var wDymaticLayers = map.getLayer(dymaticMapName);
 		for(var i=0;i<wDymaticLayers.layerInfos.length;i++){
 			if( wDymaticLayers.layerInfos[i].name == layerName ){
-				layerArr = 	wDymaticLayers.layerInfos[i+1];
+				layerArr = 	wDymaticLayers.layerInfos[i];
 				break;
 			}		
 		}
